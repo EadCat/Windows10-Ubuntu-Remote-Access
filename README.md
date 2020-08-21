@@ -26,11 +26,12 @@ Chungnam university undergraduate research student Dae-Young Song (2020.07.14.)
   ```sudo apt update  # this means updates the list of packages that need to be upgraded.```
 
 - OS upgrade
+  
   - we are going to upgrade Linux os, but if the error that cannot read the address appears (could not resolve), take the following actions.
   
 - software & updates -> Download from: [change here!] << main server
   
-- ![software_set](./images/software_server_set.jpg)
+- ![software_set](./images/software_server_set.JPG)
   
 - ```sudo gedit /etc/resolv.conf```
   
