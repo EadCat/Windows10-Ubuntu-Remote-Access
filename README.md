@@ -44,7 +44,7 @@ Chungnam university undergraduate research student Dae-Young Song (2020.07.14.)
     - nameserver 8.8.4.4
   ```
   
-  ![resolv](./images/nameserver.jpg)
+  ![resolv](./images/nameserver.JPG)
   
 - save.
   
@@ -91,9 +91,9 @@ keyboard and mouse don't work if you reboot without this package [xserver-xorg-i
 - Access
   - caution: Windows 10 remote desktop connection cannot be accessed if the Linux Ubuntu user account is logged in. One of them must be logged out. There is no need to separate the monitor from the hardware.
 
-![remote_access](./images/remote_access.jpg)
+![remote_access](./images/remote_access.JPG)
 
-![result1](./images/remote_result.jpg)
+![result1](./images/remote_result.JPG)
 
 - More
   - never type following sentences in your terminal.
@@ -128,7 +128,7 @@ sudo /etc/init.d/xrdp restart
 - Gnome Tweaks
   - install [Gnome Tweaks]
   
-  - ![tweak_install](./images/tweaks_install.jpg)
+  - ![tweak_install](./images/tweaks_install.JPG)
   
   - in terminal, type ```sudo apt install gnome-shell-extensions```
   
@@ -136,7 +136,7 @@ sudo /etc/init.d/xrdp restart
   
   - set your GUI interface.
   
-    ![tweaks_ex](./images/tweaks_example.jpg)
+    ![tweaks_ex](./images/tweaks_example.JPG)
 
 
 
@@ -154,7 +154,7 @@ sudo /etc/init.d/xrdp restart
     options nouveau modeset=0
     ```
 
-![nouveau_conf](./images/nouveau_conf.jpg)
+![nouveau_conf](./images/nouveau_conf.JPG)
 
 ```
 - sudo update-initramfs -u	*# policy update*
@@ -192,7 +192,7 @@ you can choose other methods besides following two methods.
 
 - in terminal, type ```nvidia-smi```:
 
-  ![smi](./images/nvidia-smi.jpg)
+  ![smi](./images/nvidia-smi.JPG)
 
 
 
@@ -206,7 +206,7 @@ you can choose other methods besides following two methods.
 
 - example:
 
-  ![cudagoogle](./images/cuda102.jpg)
+  ![cudagoogle](./images/cuda102.JPG)
 
   
 
@@ -256,7 +256,7 @@ you can choose other methods besides following two methods.
 
   ```nvcc -V```
 
-  ![nvcc](./images/nvcc-i.jpg)
+  ![nvcc](./images/nvcc-i.JPG)
 
   
 
@@ -286,7 +286,7 @@ I referenced https://linuxize.com/post/how-to-install-gcc-compiler-on-ubuntu-18-
 
 WinSCP software provides GUI for data trade between Windows 10 and Linux Ubuntu.
 
-![scp](./images/winscp.jpg)
+![scp](./images/winscp.JPG)
 
 - on the Linux desktop, type:
 
@@ -376,7 +376,7 @@ sudo apt install python3-venv
 - choose a directory for you to use.
 -  example: in my case, folder name: PyVenv
 
-![env](./images/env.jpg)
+![env](./images/env.JPG)
 
 - in terminal, access env directory and type:
 
@@ -392,7 +392,7 @@ sudo apt install python3-venv
 
 - and you can check whether it is activated or not. see (environment_name)
 
-- ![env_whether](./images/env_act.jpg)
+- ![env_whether](./images/env_act.JPG)
 
 - deactivate command:
 
