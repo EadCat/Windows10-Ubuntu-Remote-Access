@@ -27,27 +27,28 @@ Chungnam university undergraduate research student Dae-Young Song (2020.07.14.)
 
 - OS upgrade
   - we are going to upgrade Linux os, but if the error that cannot read the address appears (could not resolve), take the following actions.
-  - software & updates -> Download from: [change here!] << main server
-
-  - <img src="./images/software_server_set.jpg" width="500">
-
-  - ```sudo gedit /etc/resolv.conf```
-
-  - comment out existing sentences.
-
-  - type following sentences.
-
+  
+- software & updates -> Download from: [change here!] << main server
+  
+- ![software_set](./images/software_server_set.jpg)
+  
+- ```sudo gedit /etc/resolv.conf```
+  
+- comment out existing sentences.
+  
+- type following sentences.
+  
     ```
     - nameserver 8.8.8.8
     - nameserver 8.8.4.4
-    ```
-
-    <img src="./images/nameserver.jpg" width="600" height="550">
-
-  - save.
-
-  - retype -> ```sudo apt update```
-
+  ```
+  
+  ![resolv](./images/nameserver.jpg)
+  
+- save.
+  
+- retype -> ```sudo apt update```
+  
 - ```sudo apt dist-upgrade   # upgrade your computer. 
   sudo apt dist-upgrade   # upgrade your computer. 
   sudo ufw allow 3389/tcp  # xrdp port setting
@@ -89,9 +90,9 @@ keyboard and mouse don't work if you reboot without this package [xserver-xorg-i
 - Access
   - caution: Windows 10 remote desktop connection cannot be accessed if the Linux Ubuntu user account is logged in. One of them must be logged out. There is no need to separate the monitor from the hardware.
 
-<img src="./images/remote_access.jpg" width="500">
+![remote_access](./images/remote_access.jpg)
 
-<img src="./images/remote_result.jpg" width="500">
+![result1](./images/remote_result.jpg)
 
 - More
   - never type following sentences in your terminal.
@@ -125,12 +126,16 @@ sudo /etc/init.d/xrdp restart
 
 - Gnome Tweaks
   - install [Gnome Tweaks]
-  - <img src="./images/tweaks_install.jpg" width="550">
+  
+  - ![tweak_install](./images/tweaks_install.jpg)
+  
   - in terminal, type ```sudo apt install gnome-shell-extensions```
+  
   - ``````sudo reboot```
+  
   - set your GUI interface.
-
-<img src="./images/tweaks_example.jpg" width="550" height="400">
+  
+    ![tweaks_ex](./images/tweaks_example.jpg)
 
 
 
@@ -148,7 +153,7 @@ sudo /etc/init.d/xrdp restart
     options nouveau modeset=0
     ```
 
-<img src="./images/nouveau_conf.jpg" width="600" height="500">
+![nouveau_conf](./images/nouveau_conf.jpg)
 
 ```
 - sudo update-initramfs -u	*# policy update*
@@ -186,7 +191,7 @@ you can choose other methods besides following two methods.
 
 - in terminal, type ```nvidia-smi```:
 
-  <img src="./images/nvidia-smi.jpg">
+  ![smi](./images/nvidia-smi.jpg)
 
 
 
@@ -200,7 +205,7 @@ you can choose other methods besides following two methods.
 
 - example:
 
-  <img src="./images/cuda102.jpg">
+  ![cudagoogle](./images/cuda102.jpg)
 
   
 
@@ -250,7 +255,7 @@ you can choose other methods besides following two methods.
 
   ```nvcc -V```
 
-  <img src="./images/nvcc-i.jpg">
+  ![nvcc](./images/nvcc-i.jpg)
 
   
 
@@ -280,7 +285,7 @@ I referenced https://linuxize.com/post/how-to-install-gcc-compiler-on-ubuntu-18-
 
 WinSCP software provides GUI for data trade between Windows 10 and Linux Ubuntu.
 
-<img src="./images/winscp.jpg">
+![scp](./images/winscp.jpg)
 
 - on the Linux desktop, type:
 
@@ -370,7 +375,7 @@ sudo apt install python3-venv
 - choose a directory for you to use.
 -  example: in my case, folder name: PyVenv
 
-<img src="./images/env.jpg" width="700">
+![env](./images/env.jpg)
 
 - in terminal, access env directory and type:
 
@@ -386,7 +391,7 @@ sudo apt install python3-venv
 
 - and you can check whether it is activated or not. see (environment_name)
 
-- <img src="./images/env_act.jpg">
+- ![env_whether](./images/env_act.jpg)
 
 - deactivate command:
 
