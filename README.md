@@ -112,7 +112,7 @@ sudo /etc/init.d/xrdp restart
   
 - On the login screen, press ctrl+alt+F1~F6.
   
-- getting out of xrdp infinite login bug
+- getting out of infinite ubuntu login bug caused by xRDP
   - enter the TTY environment.
   - log in.
   - type next command. replace {username} as appropriate.
@@ -285,6 +285,8 @@ I referenced https://linuxize.com/post/how-to-install-gcc-compiler-on-ubuntu-18-
 ## 6. Windows - Linux Ubuntu Data Trade
 
 WinSCP software provides GUI for data trade between Windows 10 and Linux Ubuntu.
+
+https://winscp.net/eng/download.php
 
 ![scp](./images/winscp.JPG)
 
