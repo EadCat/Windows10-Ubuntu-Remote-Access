@@ -132,7 +132,7 @@ sudo /etc/init.d/xrdp restart
   
   - in terminal, type ```sudo apt install gnome-shell-extensions```
   
-  - ``````sudo reboot```
+  - ```sudo reboot```
   
   - set your GUI interface.
   
@@ -157,7 +157,7 @@ sudo /etc/init.d/xrdp restart
 ![nouveau_conf](./images/nouveau_conf.JPG)
 
 ```
-- sudo update-initramfs -u	*# policy update*
+- sudo update-initramfs -u	# policy update
 
 - sudo reboot
 ```
@@ -223,11 +223,11 @@ you can choose other methods besides following two methods.
   - replace 'v7' with the version you installed.
 
   - ```
-    cp -r /usr/src/cudnn_samples_v7/ $HOME	*# copy*
+    cp -r /usr/src/cudnn_samples_v7/ $HOME	# copy
     
     cd $HOME/cudnn_samples_v7/mnistCUDNN	# access to the address
     
-    make clean && make	*# compile*
+    make clean && make	# compile
     
     ./mnistCUDNN	# run
     ```
@@ -313,7 +313,11 @@ WinSCP software provides GUI for data trade between Windows 10 and Linux Ubuntu.
   ```
 
 - in terminal, type: ```service sshd restart```
+
 - ```sudo passwd root```
+
+- set password of root ID
+
 - if you edit the files using root ID, you will not be able to edit those files through your normal user ID. (permission problem)
 
 ## 7. Linux Ubuntu root Login
