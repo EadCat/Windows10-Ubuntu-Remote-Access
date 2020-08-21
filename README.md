@@ -23,7 +23,7 @@ Chungnam university undergraduate research student Dae-Young Song (2020.07.14.)
 
 - open terminal and type
 
-  ```sudo apt update  # this means updates the list of packages that need to be upgraded.```
+  ```sudo apt update```
 
 - OS upgrade
   
@@ -67,7 +67,7 @@ type following commands in your terminal in order.
 - sudo apt install xserver-xorg-core
 
 - sudo apt install xserver-xorg-input-all
-keyboard and mouse don't work if you reboot without this package [xserver-xorg-input-all]
+  -> keyboard and mouse don't work if you reboot without this package [xserver-xorg-input-all]
 
 - sudo apt install xorgxrdp
 
@@ -325,7 +325,7 @@ WinSCP software provides GUI for data trade between Windows 10 and Linux Ubuntu.
 This part can be dangerous.
 
 - ```
-  sudo passwd root	# administrator password set command
+  sudo passwd root	# set root ID password.
   ```
 
 - ```
