@@ -4,7 +4,7 @@ Windows10 -> Linux ubuntu remote-control environment installation guide for Mach
 
 Chungnam university undergraduate research student Dae-Young Song (2020.07.14.)
 
-![result_screenshot](.\images\goal.JPG)
+![result_screenshot](./images/goal.JPG)
 
 
 
@@ -29,7 +29,7 @@ Chungnam university undergraduate research student Dae-Young Song (2020.07.14.)
   - we are going to upgrade Linux os, but if the error that cannot read the address appears (could not resolve), take the following actions.
   - software & updates -> Download from: [change here!] << main server
 
-  - <img src="./images/software server set.jpg" width=500>
+  - <img src="./images/software_server_set.jpg" width="500">
 
   - ```sudo gedit /etc/resolv.conf```
 
@@ -42,7 +42,7 @@ Chungnam university undergraduate research student Dae-Young Song (2020.07.14.)
     - nameserver 8.8.4.4
     ```
 
-    <img src="./images/nameserver.jpg" width='600' height='550'>
+    <img src="./images/nameserver.jpg" width="600" height="550">
 
   - save.
 
@@ -89,9 +89,9 @@ keyboard and mouse don't work if you reboot without this package [xserver-xorg-i
 - Access
   - caution: Windows 10 remote desktop connection cannot be accessed if the Linux Ubuntu user account is logged in. One of them must be logged out. There is no need to separate the monitor from the hardware.
 
-<img src='./images/remote access.jpg' width=500>
+<img src="./images/remote_access.jpg" width="500">
 
-<img src='./images/remote result.jpg' width=500>
+<img src="./images/remote_result.jpg" width="500">
 
 - More
   - never type following sentences in your terminal.
@@ -107,8 +107,9 @@ sudo /etc/init.d/xrdp restart
 ​		we don't use xfce4 GUI.
 
 - entering TTY
-  - On the login screen, press ctrl+alt+F1~F6.
-
+  
+- On the login screen, press ctrl+alt+F1~F6.
+  
 - getting out of xrdp infinite login bug
   - enter the TTY environment.
   - log in.
@@ -124,12 +125,12 @@ sudo /etc/init.d/xrdp restart
 
 - Gnome Tweaks
   - install [Gnome Tweaks]
-  - <img src='./images/tweaks install.jpg' width=550>
+  - <img src="./images/tweaks_install.jpg" width="550">
   - in terminal, type ```sudo apt install gnome-shell-extensions```
   - ``````sudo reboot```
   - set your GUI interface.
 
-<img src='./images/tweaks example.jpg' width=550 height=400>
+<img src="./images/tweaks_example.jpg" width="550" height="400">
 
 
 
@@ -147,7 +148,7 @@ sudo /etc/init.d/xrdp restart
     options nouveau modeset=0
     ```
 
-<img src='./images/nouveau conf.jpg' width=600 height=500>
+<img src="./images/nouveau_conf.jpg" width="600" height="500">
 
 ```
 - sudo update-initramfs -u	*# policy update*
@@ -185,7 +186,7 @@ you can choose other methods besides following two methods.
 
 - in terminal, type ```nvidia-smi```:
 
-  <img src='./images/nvidia-smi.jpg'>
+  <img src="./images/nvidia-smi.jpg">
 
 
 
@@ -199,7 +200,7 @@ you can choose other methods besides following two methods.
 
 - example:
 
-  <img src='./images/cuda102.jpg'>
+  <img src="./images/cuda102.jpg">
 
   
 
@@ -249,7 +250,7 @@ you can choose other methods besides following two methods.
 
   ```nvcc -V```
 
-  <img src='./images/nvcc-i.jpg'>
+  <img src="./images/nvcc-i.jpg">
 
   
 
@@ -279,7 +280,7 @@ I referenced https://linuxize.com/post/how-to-install-gcc-compiler-on-ubuntu-18-
 
 WinSCP software provides GUI for data trade between Windows 10 and Linux Ubuntu.
 
-<img src='./images/winscp.jpg'>
+<img src="./images/winscp.jpg">
 
 - on the Linux desktop, type:
 
@@ -369,7 +370,7 @@ sudo apt install python3-venv
 - choose a directory for you to use.
 -  example: in my case, folder name: PyVenv
 
-<img src='./images/env.jpg' width=700>
+<img src="./images/env.jpg" width="700">
 
 - in terminal, access env directory and type:
 
@@ -385,7 +386,7 @@ sudo apt install python3-venv
 
 - and you can check whether it is activated or not. see (environment_name)
 
-- <img src='./images/env_act.jpg'>
+- <img src="./images/env_act.jpg">
 
 - deactivate command:
 
