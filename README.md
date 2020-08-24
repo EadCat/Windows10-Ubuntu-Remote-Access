@@ -23,32 +23,32 @@ Chungnam university undergraduate research student Dae-Young Song (2020.07.14.)
 
 - open terminal and type
 
-  ```sudo apt update```
+  - ```sudo apt update```
 
 - OS upgrade
   
   - we are going to upgrade Linux os, but if the error that cannot read the address appears (could not resolve), take the following actions.
   
-- software & updates -> Download from: [change here!] << main server
-  
-- ![software_set](./images/software_server_set.JPG)
-  
-- ```sudo gedit /etc/resolv.conf```
-  
-- comment out existing sentences.
-  
-- type following sentences.
-  
-    ```
+  - software & updates -> Download from: [change here!] << main server
+    
+  - ![software_set](./images/software_server_set.JPG)
+    
+  - ```sudo gedit /etc/resolv.conf```
+    
+  - comment out existing sentences.
+    
+  - type following sentences.
+    
+  - ```
     - nameserver 8.8.8.8
-    - nameserver 8.8.4.4
-  ```
+      - nameserver 8.8.4.4
+      ```
+      
+  - ![resolv](./images/nameserver.JPG)
   
-  ![resolv](./images/nameserver.JPG)
-  
-- save.
-  
-- retype -> ```sudo apt update```
+  - save.
+    
+  - retype -> ```sudo apt update```
   
 - ```sudo apt dist-upgrade   # upgrade your computer. 
   sudo apt dist-upgrade   # upgrade your computer. 
@@ -96,47 +96,48 @@ type following commands in your terminal in order.
 ![result1](./images/remote_result.JPG)
 
 - More
+  
   - never type following sentences in your terminal.
-
-```
-sudo apt install gnome-panel
-
-echo “gnome-session —session=gnome-fallback” > ~/.xsession
-
-sudo /etc/init.d/xrdp restart
-```
-
-​		we don't use xfce4 GUI.
-
-- entering TTY
   
-- On the login screen, press ctrl+alt+F1~F6.
+    - ```
+      sudo apt install gnome-panel
+      
+      echo “gnome-session —session=gnome-fallback” > ~/.xsession
+      
+      sudo /etc/init.d/xrdp restart
+      ```
   
-- getting out of infinite ubuntu login bug caused by xRDP
-  - enter the TTY environment.
-  - log in.
-  - type next command. replace {username} as appropriate.
-
-  ```
-  sudo chown {username}:{username} -R /home/{username}
+    - we don't use xfce4 GUI.
   
-  sudo reboot
-  ```
-
-  ​	infinite login bug can also be caused by a graphics card driver error.
-
-- Gnome Tweaks
-  - install [Gnome Tweaks]
+  - entering TTY
   
-  - ![tweak_install](./images/tweaks_install.JPG)
+    - On the login screen, press ctrl+alt+F1~F6.
   
-  - in terminal, type ```sudo apt install gnome-shell-extensions```
+  - getting out of infinite ubuntu login bug caused by xRDP
   
-  - ```sudo reboot```
+    - enter the TTY environment.
   
-  - set your GUI interface.
+    - log in.
   
-    ![tweaks_ex](./images/tweaks_example.JPG)
+    - type next command. replace {username} as appropriate.
+  
+    - ```
+      sudo chown {username}:{username} -R /home/{username}
+      
+      sudo reboot
+      ```
+  
+    - infinite login bug can also be caused by a graphics card driver error.
+  
+  - Gnome Tweaks
+  
+    - install [Gnome Tweaks]
+    - ![tweak_install](./images/tweaks_install.JPG)
+    - in terminal, type ```sudo apt install gnome-shell-extensions```
+    - ```sudo reboot```
+    - set your GUI interface.
+    - ![tweaks_ex](./images/tweaks_example.JPG)
+  
 
 
 
@@ -156,11 +157,11 @@ sudo /etc/init.d/xrdp restart
 
 ![nouveau_conf](./images/nouveau_conf.JPG)
 
-```
-- sudo update-initramfs -u	# policy update
-
-- sudo reboot
-```
+- ```
+  - sudo update-initramfs -u	# policy update
+  
+  - sudo reboot
+  ```
 
 - watch the screen resolution change.
 
@@ -235,6 +236,8 @@ you can choose other methods besides following two methods.
   - if you changed gcc version from 7 to another, you can choose the version by typing next command,
 
     ```sudo update-alternatives --config gcc```
+
+  ====================================================================
 
 - when both CUDA and cuDNN are installed, register environment variables. if you register with 'export' commands on the terminal, it disappears after rebooting.
 
