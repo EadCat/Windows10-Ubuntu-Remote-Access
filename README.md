@@ -41,7 +41,7 @@ Chungnam university undergraduate research student Dae-Young Song (2020.07.14.)
     
   - ```
     - nameserver 8.8.8.8
-      - nameserver 8.8.4.4
+    - nameserver 8.8.4.4
     ```
     
   - ![resolv](./images/nameserver.JPG)
@@ -447,49 +447,49 @@ apt: a linux package management program that takes the features of apt-get and a
   apt install {Package}
   ```
 
-   install {Package}.
+   => install {Package}.
 
 - ```
   apt remove {Package}
   ```
 
-  uninstall {Package}. except for user setting files.
+  => uninstall {Package}. except for user setting files.
 
 - ```
   apt purge {Package}
   ```
 
-  uninstall {Package}. including user setting files.
+  => uninstall {Package}. including user setting files.
 
 - ```
   apt update
   ```
 
-  load package index to upgrade.
+  => load package index to upgrade.
 
 - ```
   apt upgrade
   ```
 
-  upgrade package updated with the command 'update'.
+  => upgrade package updated with the command 'update'.
 
 - ```
   apt dist-upgrade
   ```
 
-  upgrade package checking dependency. install all necessary dependencies.
+  => upgrade package checking dependency. install all necessary dependencies.
 
 - ```
   apt autoremove
   ```
 
-  uninstall useless packages.
+  => uninstall useless packages.
 
 - ```
   ln -s {original_dir} {link_name}
   ```
 
-  make symbolic link.
+  => make symbolic link.
 
 
 
@@ -499,52 +499,52 @@ apt: a linux package management program that takes the features of apt-get and a
   pip3 list
   ```
 
-  list the package names installed in the current environment.
+  => list the package names installed in the current environment.
 
 - ```
   pip3 freeze > /home/user/Desktop/list.txt
   ```
 
-  write down all installed package names and save them as 'list.txt'
+  => write down all installed package names and save them as 'list.txt'
 
 - ```
   pip3 list -o
   ```
 
-  list packages that need to be updated.
+  => list packages that need to be updated.
 
 - ```
   pip3 install {Package}
   ```
 
-  install {Package}.
+  => install {Package}.
 
 - ```
   pip3 uninstall {Package}
   ```
 
-  uninstall {Package}.
+  => uninstall {Package}.
 
 - ```
   pip3 install pip --upgrade
   ```
 
-  upgrade Linux pip3.
+  => upgrade Linux pip3.
 
 - ```
   python -m pip install --upgrade pip
   ```
 
-  upgrade Windows pip.
+  => upgrade Windows pip.
 
 - ```
   pip3 install {Package} --upgrade
   ```
 
-  upgrade {Package} to latest version.
+  => upgrade {Package} to latest version.
 
 - ```
   pip3 install {Package}=={version}
   ```
 
-  install a specific version of the {Package}
+  => install a specific version of the {Package}
