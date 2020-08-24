@@ -54,7 +54,10 @@ Chungnam university undergraduate research student Dae-Young Song (2020.07.14.)
   
   - ```
     sudo apt dist-upgrade   # upgrade your computer. 
-  sudo ufw allow 3389/tcp  # xrdp port setting
+    ```
+    
+  - ```
+    sudo ufw allow 3389/tcp  # xrdp port setting
     ```
   
 - reboot your computer.
