@@ -304,15 +304,15 @@ https://winscp.net/eng/download.php
 
 - on the Linux, type:
 
-- ```
-  sudo gedit /etc/ssh/sshd_config
-  ```
+  - ```
+    sudo gedit /etc/ssh/sshd_config
+    ```
 
-- and change PermitRootLogin {XXX -> yes}
+  - and change PermitRootLogin {XXX -> yes}
 
-  ```
-  PermitRootLogin yes
-  ```
+  - ```
+    PermitRootLogin yes
+    ```
 
 - in terminal, type: ```service sshd restart```
 
@@ -334,22 +334,22 @@ This part can be dangerous.
   sudo gedit /etc/gdm3/custom.conf
   ```
 
-- write the sentences under the [security] section.
-
-- ```
-  AllowRoot=true
-  ```
-
+  - write the sentences under the [security] section.
+  
+  - ```
+    AllowRoot=true
+    ```
+  
 - ```
   sudo gedit /etc/pam.d/gdm-password
   ```
 
-- and comment out this:
-
-- ```
-  auth    required   pam_succeed_if.so user != root quiet
-  ```
-
+  - and comment out this:
+  
+  - ```
+    auth    required   pam_succeed_if.so user != root quiet
+    ```
+  
 - now, you can access root ID.
 
 - Warning message removal actions
@@ -358,11 +358,12 @@ This part can be dangerous.
   sudo gedit /root/.profile
   ```
 
-- and comment out this:
-
-- ```
-  mesg n || true
-  ```
+  - and comment out this:
+  
+  - ```
+    mesg n || true
+    ```
+  
 
 
 
