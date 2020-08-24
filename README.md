@@ -222,7 +222,7 @@ you can choose other methods besides following two methods.
 
 - after installation, we can check if cuDNN is properly installed. following commands:
 
-  ====================================================================
+  ---
 
   - replace 'v7' with the version you installed.
 
@@ -240,7 +240,7 @@ you can choose other methods besides following two methods.
 
     ```sudo update-alternatives --config gcc```
 
-  ====================================================================
+  ---
 
 - when both CUDA and cuDNN are installed, register environment variables. if you register with 'export' commands on the terminal, it disappears after rebooting.
 
