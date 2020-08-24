@@ -25,7 +25,7 @@ Chungnam university undergraduate research student Dae-Young Song (2020.07.14.)
 
   - ```sudo apt update```
 
-- OS upgrade
+- before OS upgrade,
   
   - we are going to upgrade Linux os, but if the error that cannot read the address appears (could not resolve), take the following actions.
   
@@ -42,22 +42,22 @@ Chungnam university undergraduate research student Dae-Young Song (2020.07.14.)
   - ```
     - nameserver 8.8.8.8
       - nameserver 8.8.4.4
-      ```
-      
+    ```
+    
   - ![resolv](./images/nameserver.JPG)
   
   - save.
     
   - retype -> ```sudo apt update```
   
-- ```sudo apt dist-upgrade   # upgrade your computer. 
-  sudo apt dist-upgrade   # upgrade your computer. 
-  sudo ufw allow 3389/tcp  # xrdp port setting
-  ```
-
-- reboot your computer.
-
+- OS upgrade
   
+  - ```
+    sudo apt dist-upgrade   # upgrade your computer. 
+  sudo ufw allow 3389/tcp  # xrdp port setting
+    ```
+  
+- reboot your computer.
 
 - xrdp installation
 
