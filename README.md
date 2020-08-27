@@ -1,4 +1,4 @@
-# Window-Linux remote control environment
+# Window10-Linux Ubuntu remote control environment
 
 Windows10 -> Linux ubuntu remote-control environment installation guide for Machine-Learning Beginner
 
