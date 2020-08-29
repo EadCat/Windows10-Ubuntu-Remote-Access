@@ -2,7 +2,7 @@
 
 Windows10 -> Linux ubuntu remote-control environment installation guide for Machine-Learning Beginner
 
-Chungnam university undergraduate research student Dae-Young Song (2020.07.14.)
+Chungnam University undergraduate research student Dae-Young Song (2020.07.14.)
 
 ![result_screenshot](./images/goal.JPG)
 
